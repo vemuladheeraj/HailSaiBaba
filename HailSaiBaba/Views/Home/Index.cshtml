@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var dattatreaIntro = IntrosStrings.dattatreyaIntro;
+    var sripadaSrivallaba = IntrosStrings.sripadaSrivallaba;
+    var narshimhaSaraswathi = IntrosStrings.narshimhaSaraswathi;
+    var manikyaPrabhu = IntrosStrings.manikyaPrabhu;
+    var swamisamarthmaharaj = IntrosStrings.swamisamarthmaharaj;
+    var shirdisaibaba = IntrosStrings.shirdisaibaba;
+    
+}
+
+
+<div class="falling-words-container"></div>
+<div class="container p-5 my-5 bg-dark bg-opacity-50 text-white rounded-pill">
+    <h1>History of Shirdi Sai Baba</h1>
+    <p>
+        Sai Baba of Shirdi, a revered Indian spiritual figure, lived during the late 19th and early 20th centuries. He is known for his teachings emphasizing unity of religions and selfless service, attracting a diverse following seeking spiritual guidance and blessings.
+    </p>
+</div>
+
+<div class="container p-5 my-5 bg-dark bg-opacity-75 text-white rounded">
+    <div class="row">
+        <div class="col-lg-4"><img src="~/images/datat.jpeg" class="rounded-circle img-fluid img-fluid" alt="Responsive image"></div>
+        <div class="col-lg-8">
+            <h1>Dattatreya</h1>
+            <p>
+                <h6 class="intro-content">@Html.Raw(@dattatreaIntro)</h6>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container p-5 my-5 bg-dark bg-opacity-75 text-white rounded">
+    <div class="row">       
+        <div class="col-lg-8">
+            <h1>ShriPaadha ShriVallabha</h1>
+            <p>
+                <h6>@Html.Raw(sripadaSrivallaba)</h6>
+            </p>
+        </div>
+        <div class="col-lg-4"><img src="~/images/sripadasrivallaba-transformed.jpeg" class="rounded-circle img-fluid" alt="Responsive image" ></div>
+    </div>
+</div>
+
+<div class="container p-5 my-5 bg-dark bg-opacity-75 text-white rounded">
+    <div class="row">
+        <div class="col-lg-4"><img src="~/images/narashimhaswamy.png" class="rounded-circle img-fluid" alt="Responsive image" ></div>
+        <div class="col-lg-8">
+            <h1>Shri Narasimha Saraswati</h1>
+            <p>
+                <h6 class="intro-content">@Html.Raw(narshimhaSaraswathi)</h6>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container p-5 my-5 bg-dark bg-opacity-75 text-white rounded">
+    <div class="row">
+        <div class="col-lg-8">
+            <h1>Sri Manikya Prabhu Maharaj</h1>
+            <p>
+                <h6>@Html.Raw(manikyaPrabhu)</h6>
+            </p>
+        </div>
+        <div class="col-lg-4"><img src="~/images/manikyaprabhu.jpg" class="rounded-circle img-fluid" alt="Responsive image" ></div>
+    </div>
+</div>
+
+<div class="container p-5 my-5 bg-dark bg-opacity-75 text-white rounded">
+    <div class="row">
+        <div class="col-lg-4"><img src="~/images/Swami-Samarth.webp" class="rounded-circle img-fluid" alt="Responsive image" ></div>
+        <div class="col-lg-8">
+            <h1>Swami Samarth Maharaj</h1>
+            <p>
+                <h6 class="intro-content">@Html.Raw(swamisamarthmaharaj)</h6>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container p-5 my-5 bg-dark bg-opacity-75 text-white rounded">
+    <div class="row">
+        <div class="col-lg-8">
+            <h1>Sri Sai Baba of Shirdi</h1>
+            <p>
+                <h6>@Html.Raw(shirdisaibaba)</h6>
+            </p>
+        </div>
+        <div class="col-lg-4"><img src="~/images/Shirdi_Sai_Baba_3.jpg" class="rounded-circle img-fluid" alt="Responsive image" ></div>
+    </div>
+</div>
+
+
